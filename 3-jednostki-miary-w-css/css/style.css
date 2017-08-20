@@ -37,3 +37,10 @@ html{
     width: 60vmax;
     font-size: 3vmax;
 }
+#cm {
+    width: 20cm;
+}
+#mm {
+    width: 200mm;
+}
+

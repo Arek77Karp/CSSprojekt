@@ -1,0 +1,20 @@
+body {
+    background-color: aquamarine;
+}
+
+.color-box {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 10px;
+    
+}
+
+#kolory-predefiniowane {
+    background-color: red;
+}
+#kolory-heksadecymalne {
+    background-color: #fe3499;
+}
+#kolory-heksadecymalne-zapis-skrocony {
+    background-color: #f39f39;
+}

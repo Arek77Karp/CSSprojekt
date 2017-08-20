@@ -18,3 +18,9 @@ body {
 #kolory-heksadecymalne-zapis-skrocony {
     background-color: #f39f39;
 }
+#kolory-rgb {
+    background-color: rgb(30,29,22);
+}
+#kolory-rgba {
+    background-color: chocolate
+}

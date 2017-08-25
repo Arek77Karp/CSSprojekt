@@ -1,32 +1,37 @@
 /*selektor znacznika*/
 
 p {
-    color: green;
+    color: violet;
 }
 
 
 /*selekror ID */
 
 #yerba {
-    color: pink;
+    color: green;
+    font-size: 30px;
+    background-color: chocolate;
 }
 
-<!--laczenie selektorow-->div,
+/* laczenie selektorow */
 a,
 span {
     color: blue;
 }
-<!--selekror bezposredniego elementu potomnego-->
+
+/* selekror bezposredniego elementu potomnego */
 div#element-potomny > p {
     color: darkred;
 }
-<!--selekror elementow potomnych-->
+
+/* selekror elementow potomnych */
 div#elementspacja  p {
     color: lime;
 }
 
 /*selektor bezposredniego rodzenstwa */
-div#rodzenstwo >div =div {color:orangered;}
+div#rodzenstwo >div =div {color:orangered;
+}
 
 /*selektor calego rodzenstwa */
 div#cale-rodzenstwo >div =div ~ div {color: magenta;

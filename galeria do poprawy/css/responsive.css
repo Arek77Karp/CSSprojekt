@@ -1,18 +1,17 @@
 @media (min-device-width:992px) {
-    figure{
+    figure {
         width: 33%;
-    }   
+    }
 }
+
 @media (min-width:768px) and (max-width:992px) {
-    figure{
+    figure {
         width: 49%;
     }
-    
 }
 
 @media (max-device-width:768px) {
-    figure{
+    figure {
         width: 100%;
     }
-    
 }

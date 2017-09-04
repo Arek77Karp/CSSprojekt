@@ -1,33 +1,43 @@
-html{
+html {
     font-size: 20px;
 }
+
 #container {
     font-size: 30px;
 }
-#container >div {
-    background-color: red;
+
+#container>div {
+    background-color: darkgreen;
 }
+
 #pixele {
-    width: :40px;
+    width: 40px;
 }
+
 #em {
-   width: 20em; 
+    width: 40em;
 }
+
 #ex {
     width: 20ex;
 }
+
 #rem {
     width: 20rem;
 }
+
 #procenty {
     width: 40%;
 }
+
 #vw {
     width: 60vw;
 }
+
 #vh {
     width: 60vh;
 }
+
 #vmin {
     width: 60vmin;
     font-size: 3vmin;
@@ -37,10 +47,21 @@ html{
     width: 60vmax;
     font-size: 3vmax;
 }
+
 #cm {
     width: 20cm;
 }
+
 #mm {
     width: 200mm;
 }
-
+#pixel{
+    background-color: red;
+    height: 96px;
+    width: 96px;
+}
+#cal{
+    background: blue;
+    height: 1in;
+    width: 1in;
+}

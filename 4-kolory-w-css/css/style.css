@@ -1,26 +1,26 @@
 body {
-    background-color: aquamarine;
+    background-color: seagreen;
 }
 
 .color-box {
-    width: 200px;
+    width: 300px;
     height: 30px;
-    margin-bottom: 10px;
-    
+    margin-bottom: 3vh;
+    text-align: center;
 }
 
 #kolory-predefiniowane {
-    background-color: red;
+    background-color: royalblue;
 }
 #kolory-heksadecymalne {
-    background-color: #fe3499;
+    background-color: #ff1122;
 }
 #kolory-heksadecymalne-zapis-skrocony {
-    background-color: #f39f39;
+    background-color: #f12;
 }
 #kolory-rgb {
-    background-color: rgb(30,29,22);
+    background-color: rgb(0%,100%,0%);
 }
 #kolory-rgba {
-    background-color: chocolate
+    background-color: rgba(00,255,00,0.5);
 }

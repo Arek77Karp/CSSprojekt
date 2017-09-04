@@ -1,31 +1,31 @@
 body {
     background-color: pink
-    }
+}
+
 #green {
     position: relative;
     background-color: green;
     width: 300px;
     height: 200px;
-        top: 30px;
-        left: 20px;
+    top: 30px;
+    left: 20px;
 }
-        #lime {
-            width: 200px;
-            height:  200px;
-            background-color: lime
-    }
-    
-    #red {
-        position: absolute;
-        width: 250px;
-        height: 30px;
-        background-color: red;
-    }
-    
-    #blue {
-        width:  230px;
-        height: 50px;
-        background-color: blue;
-    }
-        
 
+#lime {
+    width: 200px;
+    height: 200px;
+    background-color: lime
+}
+
+#red {
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    background-color: red;
+}
+
+#blue {
+    width: 230px;
+    height: 50px;
+    background-color: blue;
+}

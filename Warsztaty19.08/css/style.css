@@ -1,19 +1,80 @@
 body {
     margin: 0;
-    font-family: monospace;
+    font-family: 'Lato', sans-serif;
 }
 
-nav#menu {
-    background-color: forestgreen;
+#menu {
     text-align: center;
+    background-color: #111;
 }
 
-nav#menu>ul {
+#menu .menu-item {
+    display: inline-block;
+    padding: 25px;
+}
+
+#menu ul {
     margin: 0;
 }
 
-nav#menu>ul>li.menu-item {
-    display: inline-block;
+#menu .menu-item a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu .menu-item a:hover {
+    color: red;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+#header img {
+    width: 100%;
+}
+
+#header #main-header-text {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#about {
+    padding: 25px;
+}
+
+#about #about-header {
+    font-size: 30px;
+    text-align: center;
+}
+
+#about .about-content {
+    text-align: center;
+}
+
+#contact {
+    background-color: #222;
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+
+#contact-header {
     padding: 20px;
-    font-family: sans-serif;
+    font-size: 30px;
+}
+
+#contact #contact-content a {
+    color: #fff;
+}
+
+#contact #contact-content a:hover {
+    color: #777;
 }
